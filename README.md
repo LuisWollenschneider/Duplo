@@ -6,7 +6,9 @@
 
 **Updates:**
 
-- 🔥 **v2.1 has been released!**
+- 🔥 **v2.2 has been released!**
+  - add support for TypeScript (thanks [glinford](https://github.com/glinford)!)
+- **v2.1**
   - add support for Erlang (thanks [@mrrubinos](https://github.com/mrrubinos)!)
 - **v2.0**\
   🚀 Duplo just got a major speed boost! With new
