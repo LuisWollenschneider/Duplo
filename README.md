@@ -7,7 +7,7 @@
 **Updates:**
 
 - 🔥 **v2.2 has been released!**
-  - add support for TypeScript (thanks [glinford](https://github.com/glinford)!)
+  - add support for TypeScript (thanks [@glinford](https://github.com/glinford)!)
 - **v2.1**
   - add support for Erlang (thanks [@mrrubinos](https://github.com/mrrubinos)!)
 - **v2.0**\
