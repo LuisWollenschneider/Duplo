@@ -5,6 +5,7 @@
 #include "FileType_Erlang.h"
 #include "FileType_Java.h"
 #include "FileType_S.h"
+#include "FileType_TypeScript.h"
 #include "FileType_Unknown.h"
 #include "FileType_VB.h"
 #include "Utils.h"
@@ -27,6 +28,8 @@ IFileTypePtr FileTypeFactory::CreateFileType(
         fileType.reset(new FileType_Ada(ignorePrepStuff, minChars));
     else if (ext == "erl" || ext == "hrl")
         fileType.reset(new FileType_Erlang(ignorePrepStuff, minChars));
+    else if (ext == "ts" || ext == "tsx" || ext == "mts" || ext == "cts")
+        fileType.reset(new FileType_TypeScript(ignorePrepStuff, minChars));
     else if (ext == "java")
         fileType.reset(new FileType_Java(ignorePrepStuff, minChars));
     else

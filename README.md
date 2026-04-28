@@ -101,7 +101,7 @@ Duplicated source code blocks can harm maintainability of software systems.
 Duplo is a tool to find duplicated code blocks in large code bases. Duplo has
 special support for some programming languages, meaning it can filter out
 (multi-line) comments and compiler directives. For example: C, C++, Java, C#,
-and VB.NET. Any other text format is also supported.
+VB.NET, Erlang, and TypeScript. Any other text format is also supported.
 
 ## 2. Maintainer
 
@@ -119,6 +119,8 @@ file formats:
 - VB
 - GCC assembly
 - Ada
+- Erlang (.erl, .hrl)
+- TypeScript (.ts, .tsx, .mts, .cts)
 
 This means that Duplo will remove preprocessor directives, block comments, using
 statements, etc, to only consider duplicates in actual code. In addition, Duplo
@@ -305,7 +307,6 @@ extension. Refer to [this commit](https://github.com/dlidstrom/Duplo/commit/320f
 - F#
 - Scala
 - Haskell
-- Erlang
 - What else?
 
 Send me a pull request!
