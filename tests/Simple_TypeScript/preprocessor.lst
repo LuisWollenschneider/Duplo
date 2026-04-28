@@ -1,0 +1,4 @@
+tests/Simple_TypeScript/preprocessor.ts
+tests/Simple_TypeScript/preprocessor.tsx
+tests/Simple_TypeScript/preprocessor.mts
+tests/Simple_TypeScript/preprocessor.cts
