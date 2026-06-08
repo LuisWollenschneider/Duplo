@@ -5,6 +5,7 @@
 #include "FileType_Erlang.h"
 #include "FileType_Java.h"
 #include "FileType_S.h"
+#include "FileType_Swift.h"
 #include "FileType_TypeScript.h"
 #include "FileType_Unknown.h"
 #include "FileType_VB.h"
@@ -32,6 +33,8 @@ IFileTypePtr FileTypeFactory::CreateFileType(
         fileType.reset(new FileType_TypeScript(ignorePrepStuff, minChars));
     else if (ext == "java")
         fileType.reset(new FileType_Java(ignorePrepStuff, minChars));
+    else if (ext == "swift")
+        fileType.reset(new FileType_Swift(ignorePrepStuff, minChars));
     else
         fileType.reset(new FileType_Unknown(minChars));
     return fileType;
