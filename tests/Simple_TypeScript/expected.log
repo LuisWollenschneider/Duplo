@@ -12,13 +12,31 @@ tests/Simple_TypeScript/simple_logger.ts(13)
     keepGoing();
     finalize();
 
+tests/Simple_TypeScript/simple_logger.ts(27)
+tests/Simple_TypeScript/simple_logger.ts(20)
+    return true;
+    keepGoing();
+    finalize();
+
 tests/Simple_TypeScript/simple_logger.ts(20)
 tests/Simple_TypeScript/simple_logger.ts(6)
     return true;
     keepGoing();
     finalize();
 
-tests/Simple_TypeScript/simple_logger.ts found: 3 block(s)
+tests/Simple_TypeScript/simple_logger.ts(27)
+tests/Simple_TypeScript/simple_logger.ts(13)
+    return true;
+    keepGoing();
+    finalize();
+
+tests/Simple_TypeScript/simple_logger.ts(27)
+tests/Simple_TypeScript/simple_logger.ts(6)
+    return true;
+    keepGoing();
+    finalize();
+
+tests/Simple_TypeScript/simple_logger.ts found: 6 block(s)
 Configuration:
   Number of files: 1
   Minimal block size: 2
@@ -28,6 +46,6 @@ Configuration:
 
 Results:
   Lines of code: 22
-  Duplicate lines of code: 9
-  Total 3 duplicate block(s) found.
+  Duplicate lines of code: 18
+  Total 6 duplicate block(s) found.
 
