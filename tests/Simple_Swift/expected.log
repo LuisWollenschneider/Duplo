@@ -1,0 +1,21 @@
+Loading and hashing files ... 2 done.
+
+tests/Simple_Swift/simple_logger.swift(22)
+tests/Simple_Swift/simple_logger.swift(15)
+    finalize()
+    keepGoing()
+    cleanup()
+
+tests/Simple_Swift/simple_logger.swift found: 1 block(s)
+Configuration:
+  Number of files: 1
+  Minimal block size: 2
+  Minimal characters in line: 3
+  Ignore preprocessor directives: 0
+  Ignore same filenames: 0
+
+Results:
+  Lines of code: 18
+  Duplicate lines of code: 3
+  Total 1 duplicate block(s) found.
+
