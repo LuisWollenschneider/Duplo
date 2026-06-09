@@ -123,6 +123,7 @@ file formats:
 - Ada
 - Erlang (.erl, .hrl)
 - TypeScript (.ts, .tsx, .mts, .cts)
+- Swift (.swift)
 
 This means that Duplo will remove preprocessor directives, block comments, using
 statements, etc, to only consider duplicates in actual code. In addition, Duplo
