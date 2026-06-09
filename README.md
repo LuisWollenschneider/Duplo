@@ -6,7 +6,10 @@
 
 **Updates:**
 
-- 🔥 **v2.2 has been released!**
+- 🔥 **v2.3 has been released!**
+  - add support for Swift (thanks [@LuisWollenschneider](https://github.com/LuisWollenschneider)!)
+    - also fix long-standing issue with single-file duplicate detection
+- **v2.2**
   - add support for TypeScript (thanks [@glinford](https://github.com/glinford)!)
 - **v2.1**
   - add support for Erlang (thanks [@mrrubinos](https://github.com/mrrubinos)!)
