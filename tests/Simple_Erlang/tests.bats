@@ -4,7 +4,7 @@
     run ./build/duplo -ml 2 tests/Simple_Erlang/simple_logger.lst out.txt
     [ "$status" -eq 1 ]
     [ "${lines[0]}" = "Loading and hashing files ... 2 done." ]
-    [ "${lines[1]}" = "tests/Simple_Erlang/simple_logger.erl found: 3 block(s)" ]
+    [ "${lines[1]}" = "tests/Simple_Erlang/simple_logger.erl found: 6 block(s)" ]
 }
 
 @test "simple_logger.erl out.txt" {

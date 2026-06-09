@@ -9,7 +9,18 @@ tests/Quake2/g_chase.c(113)
 	i = ent->client->chase_target - g_edicts;
 	do {
 
-tests/Quake2/g_chase.c found: 1 block(s)
+tests/Quake2/g_chase.c(148)
+tests/Quake2/g_chase.c(124)
+		e = g_edicts + i;
+		if (!e->inuse)
+			continue;
+		if (e->solid != SOLID_NOT)
+			break;
+	} while (e != ent->client->chase_target);
+	ent->client->chase_target = e;
+	ent->client->update_chase = true;
+
+tests/Quake2/g_chase.c found: 2 block(s)
 Configuration:
   Number of files: 1
   Minimal block size: 4
@@ -19,6 +30,6 @@ Configuration:
 
 Results:
   Lines of code: 96
-  Duplicate lines of code: 6
-  Total 1 duplicate block(s) found.
+  Duplicate lines of code: 14
+  Total 2 duplicate block(s) found.
 
